@@ -1,340 +1,244 @@
 const config = {
-  "meta": {
-    "pageTitle": "Toronto Home Sellers Workshop - Limited Spots Available",
-    "description": "Free 90-minute workshop for Toronto homeowners. Learn insider secrets to get buyers flooding through your door and sell for top dollar.",
-    "keywords": "Toronto real estate, home selling workshop, real estate event, home sellers"
+  meta: {
+    pageTitle: "Brantford's Best Family Pumpkin Patch & Photo Event – Oct 4th, 2025",
+    description: "Join Brantford's top family fall event at Mount Pleasant Nature Park. Enjoy pumpkins, fire truck fun, and FREE professional photos!",
+    keywords: "Brantford fall event, family pumpkin patch, family photos, community event",
   },
-  "event": {
-    "title": "Express Lane To Home Selling",
-    "date": "Wednesday, July 9th, 2025",
-    "time": "6:30 PM",
-    "location": "Downtown Toronto, King & Spadina Area",
-    "locationNote": "(location released after registration)",
-    "totalSpots": 25,
-    "spotsLeft": 23,
-    "duration": "90 minutes",
-    "cost": "FREE"
+  event: {
+    title: "Brantford Fall Family Memories",
+    date: "Saturday, October 4th, 2025",
+    time: "12:00 PM – 3:00 PM",
+    location: "Mount Pleasant Nature Park, 755 Mt Pleasant Rd, Mount Pleasant, ON",
+    locationNote: null,
+    totalSpots: 150,
+    spotsLeft: 150,
+    duration: "3-hour family-friendly afternoon",
+    cost: "FREE (Professional photos and pumpkins included!)",
   },
-  "header": {
-    "eventDate": "Wednesday, July 9th, 2025 at 6:30 PM",
-    "spotsAvailable": "Only 23 25 Spots Available",
-    "ctaText": "Claim Your Free Spot"
+  header: {
+    eventDate: "Saturday, October 4th, 2025 | 12:00 PM – 3:00 PM",
+    spotsAvailable: "Only 150 FAMILY SPOTS available – This event WILL fill up fast!",
+    ctaText: "RESERVE YOUR FAMILY SPOT",
+    brandText: "Brantford Family Fall Experience",
   },
-  "hero": {
-    "badge": "🚨Exclusive Event For Mississauga Home Buyers🚨",
-    "headline": "Learn Why Most Toronto Homes Get <span class='highlight'>Completely Ignored By Buyers</span>... While Certain Sellers <span class='highlight'>Get Bidding Wars And Top Dollar Sales</span> - <em>For Free In Under 90 Mins</em>",
-    "subtitle": "If you're <strong>planning to sell In The Next 24 Months</strong> and worried about sitting empty with <em>zero showings</em>, this <strong>free 90-minute event</strong> reveals the \"insider secrets\" that get <em>buyers flooding through your door.</em> Meet 5 industry experts who'll show you exactly <strong>what Your Home Is Worth</strong> and walk away with your personal game plan to <strong>get buyers fighting over your house.</strong>",
-    "ctaText": "Claim Your Free Spot",
-    "ctaSubtext": "Food & Drink Included",
-    "urgencyText": "Only 23 25 Spots Left!<br>Don't miss out!"
+  hero: {
+    badge: null,
+    headline: "Create <span class='highlight'>Magical Fall Memories</span> & Get <span class='highlight'>Professional Family Photos</span> – No Stress, All Fun!",
+    subtitle: "Don't miss Brantford’s most-loved fall family event – enjoy the pumpkin patch, kid-approved fire truck fun, and FREE professional photos your family will treasure!",
+    ctaText: "RESERVE YOUR FAMILY SPOT",
+    ctaSubtext: null,
+    urgencyText: "Only 150 <span class='highlight'>FAMILY SPOTS</span> available – This event WILL fill up fast!",
   },
-  "eventDetails": {
-    "sectionTitle": "Ready To Learn How To Get Your Home Sold? Secure Your Seat Below",
-    "ctaText": "Claim Your Free Spot",
-    "foodIncluded": "food & drink included"
+  eventDetails: {
+    sectionTitle: "Event Details",
+    ctaText: "RESERVE YOUR FAMILY SPOT",
+    dateTime: "Saturday, October 4th, 2025 | 12:00 PM – 3:00 PM",
+    location: "Mount Pleasant Nature Park, 755 Mt Pleasant Rd, Mount Pleasant, ON",
+    duration: "3-hour family-friendly afternoon",
+    cost: "FREE (Professional photos and pumpkins included!)",
+    urgencyMessage: "Only 150 FAMILY SPOTS available – This event WILL fill up fast!",
   },
-  "problems": {
-    "title": "Dear Frustrated Toronto Homeowner",
-    "items": [
-      "You're <strong>WATCHING</strong> other homes get zero showings while prices keep dropping across Toronto",
-      "You're <strong>TERRIFIED</strong> you'll be forced to sell for way less than your house is worth",
-      "You're <strong>STRESSED</strong> about spending money fixing things when you're not even sure your house will sell",
-      "And you're <strong>SICK</strong> of getting different advice from everyone when you just need to know what actually works"
-    ]
-  },
-  "successStatement": "Yet, We're Getting Our Sellers Flooded With Buyers And Full-Price Offers While Other Homes Sit Dead On The Market!",
-  "solutions": {
-    "title": "Why Our \"Express Lane To Home Selling\" Event Is <em>THE BEST Path</em> To Success..",
-    "items": [
-      "<strong>DISCOVER</strong> the 3 secrets that get buyers flooding through your door (while others sit empty)",
-      "<strong>LEARN</strong> which $500 fixes add $15,000+ to your sale price (and which ones waste money)",
-      "<strong>GET</strong> the exact pricing strategy that triggers multiple offers in this market",
-      "<strong>WALK AWAY</strong> knowing exactly what to do tomorrow to start getting showings",
-      "<strong>PAY NOTHING</strong> and leave with a complete roadmap to sell fast for top dollar",
-      "<strong>TOTALLY FREE</strong> (plus we'll feed you while you learn)"
-    ]
-  },
-  "targetAudience": {
-    "title": "Who Is This Event For?",
-    "items": [
-      "You're <strong>PLANNING</strong> to sell within 24 months and want to be prepared (not panicked)",
-      "You're <strong>TIRED</strong> of guessing what your house is worth or what fixes to make",
-      "You're <strong>OVERWHELMED</strong> by all the different steps to sell a house",
-      "You're <strong>UNSURE</strong> which home improvements will pay off and which are a waste",
-      "You want <strong>REAL ADVICE</strong> from experts (not random tips from the internet)"
+  problems: {
+    title: "Tired of Missing Out on Real Family Moments Every Fall?",
+    items: [
+      { icon: "fas fa-clock", text: "No time or energy to plan a picture-perfect day, but you want lasting memories" },
+      { icon: "fas fa-camera", text: "Studio photos are expensive and awkward – you never LOVE the results" },
+      { icon: "fas fa-user-friends", text: "Worried the kids are growing up too fast and another season will slip by" },
+      { icon: "fas fa-calendar-alt", text: "Every weekend gets booked up before you find something magical to do together" },
+      { icon: "fas fa-frown", text: "Everything feels tired and the 'pumpkin patch' experience never lives up to your hopes" },
     ],
-    "note": "...And perfect even if selling is still months away (there is no commitment required)"
   },
-  "comparison": {
-    "painfulWay": {
-      "title": "The PAINFUL Way (Most People)",
-      "subtitle": "Here's what people normally do..",
-      "points": [
-        "<strong>Book multiple one-off appointments</strong> with agents, stagers, contractors, and photographers—dragging it out for weeks or months.",
-        "<strong>Get conflicting advice</strong> from social media, online forums, and well-meaning friends.",
-        "<strong>Waste hours online researching</strong> comparable sales, renovation costs, and market trends—with no real clarity."
-      ]
-    },
-    "expressWay": {
-      "title": "THE EXPRESS LANE WAY (You)",
-      "subtitle": "Here's what successful sellers do..",
-      "points": [
-        "<strong>Save Time</strong> by meeting all of the pros in one session and asking personalized questions.",
-        "<strong>Feel Confident</strong> in their pricing and strategy by getting advice from industry experts who are active in the market.",
-        "<strong>Interview To Make The Right Choice.</strong> Talk to multiple experts before making a final decision to ensure they are making the right choice."
-      ]
-    }
-  },
-  "benefits": {
-    "title": "immerse yourself in This Live Event to finally feel confident selling your home.",
-    "subtitle": "At this live event you can look forward to:",
-    "items": [
-      {
-        "title": "Real Numbers",
-        "description": "Understand exactly what your home is worth, what improvements add value, and how to price strategically."
-      },
-      {
-        "title": "Expert Clarity",
-        "description": "Get unfiltered advice from trusted pros who aren't trying to sell you anything."
-      },
-      {
-        "title": "Confidence to Move Forward",
-        "description": "Walk away with clear next steps, whether you're ready to sell now or 6 months from now."
-      },
-      {
-        "title": "A Curated Support Team",
-        "description": "Build relationships with industry experts who can guide you when the time is right."
-      }
-    ]
-  },
-  "speakers": {
-    "title": "Get A Sneak Peek Into The Event!",
-    "subtitle": "<strong>Meet Your Hosts & Experts —</strong> This isn't just another info session, it's your chance to connect directly with the experts who can help you sell your home the right way.",
-    "experts": [
-      {
-        "name": "Erica Reddy-Choquette & Sarah Meng",
-        "title": "Award-Winning Toronto Realtors",
-        "description": "Local market experts helping sellers maximize their home's value.",
-        "points": [
-          "Understand which Toronto neighbourhoods are hot right now—and pricing strategies that work",
-          "Learn how to position your home to sell quickly and avoid common listing mistakes"
-        ]
-      },
-      {
-        "name": "Speaker Announcement Coming Soon",
-        "title": "Mortgage Broker",
-        "description": "Coordinate your sale and next purchase like a pro, without timing headaches.",
-        "points": [
-          "Understand bridge loans, extended closings, and how to buy before you sell.",
-          "Learn how to avoid moving twice or ending up without a home."
-        ]
-      },
-      {
-        "name": "Speaker Announcement Coming Soon",
-        "title": "Staging Specialist",
-        "description": "Revealing which $500 improvements can add $15,000+ to your sale price",
-        "points": [
-          "Find out which improvements buyers actually care about — and which to skip.",
-          "Get a checklist of fast, affordable staging wins for every room in your home."
-        ]
-      },
-      {
-        "name": "Speaker Announcement Coming Soon",
-        "title": "Handyman",
-        "description": "Fix what matters, skip what doesn't, straight from a seasoned pro.",
-        "points": [
-          "Discover which low-cost repairs make your listing shine (and which are a waste).",
-          "Avoid red flags that scare buyers — without over-renovating."
-        ]
-      }
-    ]
-  },
-  "eventSummary": {
-    "title": "Join Us LIVE For this Express Lane To Home Selling Live Event",
-    "subtitle": "Here's everything to look forward to:",
-    "date": "Thursday, May 29, 2025 at 6:30 PM",
-    "location": "Downtown Toronto, King & Spadina Area",
-    "features": [
-      "Private access to industry experts all in one room: Staging Specialist, Mortgage Specialist, Handyman, Realtors",
-      "Action plan to move forward",
-      "Networking, snacks & beverages",
-      "Zero pressure, real answers"
+  solutions: {
+    title: "Here’s How This Brantford Event Makes Family Fall Magic Simple",
+    subtitle: "Discover a new tradition – real smiles, real moments, and memories that last.",
+    items: [
+      { icon: "fas fa-images", text: "Professional photographer captures candid, joyful family photos in a gorgeous fall setting" },
+      { icon: "fas fa-pumpkin", text: "Kids pick their own pumpkins from the patch (only 150 available!)" },
+      { icon: "fas fa-fire-truck", text: "Special fire truck appearance – let your kids climb up and explore" },
+      { icon: "fas fa-calendar-check", text: "All-in-one event – no planning, no setup, just show up and enjoy" },
+      { icon: "fas fa-smile", text: "Stress-free – just bring your family and your phone for backup snapshots!" },
+      { icon: "fas fa-gift", text: "FREE: Every family gets emailed professional photos – no awkward sales pitch" },
+      { icon: "fas fa-heart", text: "Become part of a close-knit event with other local families" },
     ],
-    "ctaText": "Claim Your Free Spot",
-    "note": "join us live in person!",
-    "limitedOffer": "*Limited Time Offer*"
   },
-  "faq": {
-    "title": "Frequently asked questions.",
-    "subtitle": "All your questions answered so you can make the right decision before grabbing your tickets!",
-    "questions": [
-      {
-        "question": "What is the format of the event?",
-        "answer": "You'll rotate through 5 stations (like speed dating), each with a different expert. There will be time before and after to mingle."
-      },
-      {
-        "question": "Where is it?",
-        "answer": "Downtown Toronto. Address sent upon registration."
-      },
-      {
-        "question": "How long is it?",
-        "answer": "Roughly 90 minutes, starting at 6:30 PM."
-      },
-      {
-        "question": "Is it really free?",
-        "answer": "Yes! Just bring your questions and curiosity. Drinks, snacks, and goodies are on us."
-      },
-      {
-        "question": "Do I need to bring anything?",
-        "answer": "Just your phone and maybe a notepad. We'll handle the rest."
-      },
-      {
-        "question": "Can I bring a friend or partner?",
-        "answer": "Absolutely—just make sure they register separately as we only have room for 25 people."
-      },
-      {
-        "question": "What if I'm not ready to Sell yet?",
-        "answer": "That's okay! This is about getting prepared, not pressuring you to sell."
-      },
-      {
-        "question": "How many spots are available?",
-        "answer": "We're capping it at 25 people to keep it personal. Register early—spots will go fast."
-      }
-    ]
+  targetAudience: {
+    title: "This Event is Perfect For…",
+    subtitle: "Brantford & Brant County Families Who Want a Special Fall Experience",
+    items: [
+      { icon: "fas fa-users", text: "Busy parents short on time but big on heart" },
+      { icon: "fas fa-child", text: "Families with toddlers, grade-schoolers, or teens – everyone’s included" },
+      { icon: "fas fa-camera-retro", text: "Anyone who wants great family photos without costly studio sessions" },
+      { icon: "fas fa-pumpkin", text: "Local families craving an authentic fall memory – not a crowded, commercial event" },
+      { icon: "fas fa-handshake", text: "Supporters of Brantford’s community spirit" },
+    ],
+    note: "No fancy outfits or perfect kids required – just your real family, ready to make memories!",
   },
-  "registration": {
-    "title": "Claim Your Spot Below",
-    "urgency": "Only 23 25 Spots Available",
-    "note": "Zero pressure, all value. Register for this free Toronto home selling event."
-  },
-  "contact": {
-    "agents": [
-      {
-        "name": "Erica Reddy-Choquette",
-        "title": "Broker",
-        "phone": "416.587.2782",
-        "email": "arslan@salesgenius.co"
-      },
-      {
-        "name": "Sarah Meng",
-        "title": "Realtor",
-        "phone": "416-989-2879",
-        "email": "arslan@salesgenius.co"
-      }
-    ]
-  },
-  "footer": {
-    "brokerage": "Royal LePage Signature Realty, Brokerage*",
-    "address": "201-8 Sampson Mews, Toronto, ON, M3C 0H5",
-    "copyright": "© Copyright 2025. All rights reserved.",
-    "privacyPolicy": "https://ericareddy.com/privacy-policy/"
-  },
-  "modalQuestions": [
-    {
-      "id": "timeline",
-      "questionText": "When are you planning to sell your home?",
-      "options": [
-        {
-          "value": "within_3_months",
-          "text": "Within 3 months"
-        },
-        {
-          "value": "3_6_months",
-          "text": "3-6 months"
-        },
-        {
-          "value": "6_12_months",
-          "text": "6-12 months"
-        },
-        {
-          "value": "over_12_months",
-          "text": "Over 12 months"
-        },
-        {
-          "value": "just_exploring",
-          "text": "Just exploring options"
-        }
-      ]
+  comparison: {
+    painfulWay: {
+      title: "The Stressful Way:",
+      subtitle: "Trying to DIY a Happy Family Fall Day",
+      points: [
+        { icon: "fas fa-question-circle", text: "Struggle to find fun ideas everyone will love" },
+        { icon: "fas fa-calendar-times", text: "Book last minute and end up disappointed or rushed" },
+        { icon: "fas fa-money-bill", text: "Pay top dollar for staged photos that don’t feel ‘you’" },
+        { icon: "fas fa-bus", text: "Fight crowds at big commercial pumpkin patches" },
+        { icon: "fas fa-camera", text: "Miss the best photo opportunities while wrangling kids" },
+      ],
     },
-    {
-      "id": "property_type",
-      "questionText": "What type of property do you own?",
-      "options": [
-        {
-          "value": "detached_house",
-          "text": "Detached House"
-        },
-        {
-          "value": "semi_detached",
-          "text": "Semi-Detached"
-        },
-        {
-          "value": "townhouse",
-          "text": "Townhouse"
-        },
-        {
-          "value": "condo",
-          "text": "Condo/Apartment"
-        },
-        {
-          "value": "duplex",
-          "text": "Duplex"
-        }
-      ]
+    expressWay: {
+      title: "The Easy Way:",
+      subtitle: "With Rise Realty Group’s Fall Family Event",
+      points: [
+        { icon: "fas fa-check-circle", text: "All the magic organized for you – just reserve, show up, and enjoy" },
+        { icon: "fas fa-pumpkin", text: "Pumpkin pick, pro photos, and unique activities in ONE day" },
+        { icon: "fas fa-fire-truck", text: "Local fire truck = instant excitement!" },
+        { icon: "fas fa-gift", text: "Professional photos emailed FREE after the event" },
+        { icon: "fas fa-users", text: "Intimate, limited-capacity gathering – no crowds, all connection" },
+      ],
     },
-    {
-      "id": "biggest_concern",
-      "questionText": "What's your biggest concern about selling?",
-      "options": [
-        {
-          "value": "pricing_right",
-          "text": "Pricing it right"
-        },
-        {
-          "value": "finding_buyers",
-          "text": "Finding interested buyers"
-        },
-        {
-          "value": "timing",
-          "text": "Timing the market"
-        },
-        {
-          "value": "repairs_staging",
-          "text": "Repairs and staging"
-        },
-        {
-          "value": "paperwork",
-          "text": "Legal paperwork and process"
-        }
-      ]
-    }
+  },
+  benefits: {
+    title: "What You’ll Walk Away With",
+    subtitle: "Real Keepsakes, New Family Memories, and More",
+    items: [
+      { icon: "fas fa-image", text: "Stunning family photos you’ll cherish – no stiff poses or studio stress" },
+      { icon: "fas fa-pumpkin", text: "Hand-picked pumpkin for each child – a true fall tradition" },
+      { icon: "fas fa-fire-truck", text: "Stories the kids will tell their friends (yes, they climbed on a real fire truck!)" },
+      { icon: "fas fa-bookmark", text: "A new family memory to celebrate every year" },
+      { icon: "fas fa-gift", text: "BONUS: Entry to win a $100 Devlin’s Restaurant gift card – just share your event photo" },
+    ],
+  },
+  speakers: {
+    title: "Meet Your Community Host – Rise Realty Group",
+    subtitle: "Families First. Community Always.",
+    experts: [
+      {
+        name: "Ashley Veldkamp & Team",
+        title: "Trusted Brantford/Brant County Real Estate Advisors",
+        image: "https://prod-files-secure.s3.us-west-2.amazonaws.com/8e0c10a0-da43-409c-b191-91135b7161ff/22c01a4b-310d-4097-a0f7-5e664f5b7ed5/028A4024.jpg",
+        description: "Rise Realty Group has helped hundreds of local families find their place in Brantford. With 20+ years serving this community, we’re passionate about bringing people together, not just helping them move. Our events are about real connections—and raising the bar for what families can expect from real estate and their neighbourhood.",
+        points: [
+          "20+ years helping Brantford families thrive",
+          "Hundreds of happy clients and community supporters",
+          "Local experts in homes AND heart",
+        ],
+      },
+    ],
+  },
+  faq: {
+    title: "Frequently Asked Questions",
+    subtitle: "Need more details? We’ve got you covered.",
+    questions: [
+      { question: "How much does it cost?", answer: "This event is 100% free! Photos, pumpkins, and all activities are included." },
+      { question: "Do I have to sign up for real estate services?", answer: "Nope! There’s no sales pitch—just fun, photos, and memories for your family." },
+      { question: "What if it rains?", answer: "The event happens rain or shine! Dress for the weather; the memories will be worth it." },
+      { question: "Can I bring grandparents or friends?", answer: "Yes! Each registration is for one family; all ages welcome. Limited spots—be sure to register everyone in your group!" },
+      { question: "How do I get my photos?", answer: "Professional photos will be emailed to you within 1-2 weeks after the event—no hidden fees." },
+      { question: "Where do I park?", answer: "Free on-site parking is available at Mount Pleasant Nature Park." },
+      { question: "Are pumpkins guaranteed?", answer: "First 150 families only. Please register early to guarantee your family’s pumpkin." },
+    ],
+  },
+  registration: {
+    title: "Reserve Your Spot – Only 150 Family Tickets",
+    urgency: "Only 150 Family Spots Available",
+    note: "Enter your details now to secure your place!",
+    formFields: [
+      { field: "name", label: "Your Name", type: "text", required: true, placeholder: "Full name" },
+      { field: "email", label: "Email Address", type: "email", required: true, placeholder: "your@email.com" },
+      { field: "phone", label: "Phone Number", type: "tel", required: true, placeholder: "(519) 761-0907" },
+      { field: "familyMembers", label: "How many people in your family?", type: "number", required: true, placeholder: "Number of attendees" },
+    ],
+    ctaText: "SECURE MY FAMILY’S SPOT",
+    trustSignals: [
+      { icon: "fas fa-lock", text: "Safe and private. Your info stays with us." },
+      { icon: "fas fa-gift", text: "No catch—just fun, photos, and pumpkins!" },
+      { icon: "fas fa-users", text: "Join hundreds of Brantford’s friendliest families" },
+    ],
+  },
+  modalQuestions: [
+    { id: "children_ages", questionText: "What are your children’s ages?", type: "text", placeholder: "E.g., 5 & 8" },
+    { id: "first_event", questionText: "Is this your first Rise Realty Group event?", options: [
+      { value: "yes", text: "Yes – my first time!" },
+      { value: "no", text: "No – we’ve been before!" },
+    ] },
+    { id: "pumpkin_priority", questionText: "Will your kids want to pick a pumpkin at the event?", options: [
+      { value: "yes", text: "Yes, definitely!" },
+      { value: "maybe", text: "Maybe" },
+      { value: "no", text: "No, just photos for us" },
+    ] },
+    { id: "interested_in_realestate", questionText: "Are you also interested in local Brantford real estate updates or giveaways?", options: [
+      { value: "yes", text: "Yes, send me updates!" },
+      { value: "no", text: "No, just fun for now" },
+    ] },
   ],
-  "webhook": {
-    "enabled": true,
-    "url": "https://n8n.salesgenius.co/webhook/eventsubmission",
-    "adminUrl": "https://n8n.salesgenius.co/webhook/eventupdate"
+  contact: {
+    title: "Questions? Need More Info?",
+    subtitle: "We’re just a quick call or email away",
+    agents: [
+      {
+        name: "Ashley Veldkamp",
+        title: "Event Host & Local Family Real Estate Specialist",
+        phone: "(519) 761-0907",
+        email: "ashley@theriserealtygroup.ca",
+        image: "https://prod-files-secure.s3.us-west-2.amazonaws.com/8e0c10a0-da43-409c-b191-91135b7161ff/22c01a4b-310d-4097-a0f7-5e664f5b7ed5/028A4024.jpg",
+        bio: "Serving Brantford families for over 20 years. Call, text, or email with any questions about the event or the community!",
+      },
+    ],
+    methods: [
+      { icon: "fas fa-phone", method: "Call", value: "(519) 761-0907", note: "Day, evening, or weekends" },
+      { icon: "fas fa-envelope", method: "Email", value: "ashley@theriserealtygroup.ca", note: "We reply within 1 business day" },
+      { icon: "fas fa-facebook", method: "Facebook", value: "https://www.facebook.com/theriserealtygroup/", note: "Message us on Facebook anytime" },
+    ],
   },
-  "deploymentInfo": {
-    "repoName": "event1",
-    "repoUrl": "https://github.com/arslvn/event1",
-    "netlifyUrl": "http://toronto-workshop.netlify.app",
-    "netlifyId": "",
-    "tag": "Home Sellers Workshop",
-    "ghlWebhookUrl": "https://services.leadconnectorhq.com/hooks/bJbBMjcW619cJrLUJ3kY/webhook-trigger/3yNsurfrt9oBUtRBuygb",
-    "webhookUrl": "https://n8n.salesgenius.co/webhook/eventupdate",
-    "facebookPixelId": "1057475448873422",
-    "salesGeniusAppApi": "",
-    "followUpBossEmail": ""
+  successStatement: {
+    title: "You're Registered!",
+    message: "Your spot for the <strong>Brantford Fall Family Memories Event</strong> is confirmed! Check your email for event details, what to bring, and your chance to win a $100 Devlin's Restaurant gift card.",
+    next_steps: [
+      { icon: "fas fa-envelope", text: "Watch your inbox for your confirmation, parking info, and event tips" },
+      { icon: "fas fa-calendar", text: "Add October 4th to your family calendar now" },
+      { icon: "fas fa-camera", text: "Get ready for your free professional photo session" },
+      { icon: "fas fa-gift", text: "Take your best family photo at the event, tag @RiseRealtyGroup, and you could win a night out at Devlin’s" },
+    ],
+    social_sharing: {
+      title: "Know a family who'd love this?",
+      subtitle: "Invite friends and help us build a magical Brantford tradition!",
+      buttons: [
+        { platform: "facebook", text: "Share on Facebook" },
+        { platform: "email", text: "Share by Email" },
+      ],
+    },
   },
-  "settings": {
-    "theme": "dark",
-    "primaryColor": "#dc2626",
-    "secondaryColor": "#10b981",
-    "enableAnimations": true,
-    "enableScrollTracking": true,
-    "showSpotsCounter": true,
-    "glassmorphicHeader": true
+  footer: {
+    brokerage: "Rise Realty Group, Real Broker LTD",
+    address: "218 Brant Avenue, Brantford, ON N3T 3H9",
+    phone: "(519) 761-0907",
+    email: "ashley@theriserealtygroup.ca",
+    privacyPolicy: "https://theriserealtygroup.ca/",
+    termsOfService: "https://theriserealtygroup.ca/",
+    copyright: "© 2025 Rise Realty Group Fall Family Event. All rights reserved.",
+    disclaimer: "This event is for community engagement and family enjoyment only. Photos and pumpkins provided while supplies last. No purchase necessary. Rise Realty Group is committed to privacy and community support.",
+    brokerageLogo: "https://prod-files-secure.s3.us-west-2.amazonaws.com/8e0c10a0-da43-409c-b191-91135b7161ff/9e0cb426-7be8-42ce-9e46-be8012159b0b/RRG_Grey_CMYK.png",
   },
-  "lastUpdated": "2025-07-04T20:16:49.085Z",
-  "updatedVia": "admin-panel"
+  deploymentInfo: {
+    repoName: "Event-529",
+    repoUrl: "https://github.com/arslvn93/Event-529",
+    netlifyUrl: "http://Event-529.netlify.app",
+  },
+  settings: {
+    theme: "light",
+    primaryColor: "#d2691e",
+    secondaryColor: "#ff8c00",
+    enableAnimations: true,
+    enableScrollTracking: true,
+    showSpotsCounter: true,
+    glassmorphicHeader: false,
+  },
+  lastUpdated: "2025-06-19T12:00:00.000Z",
+  updatedVia: "client-prompt",
 };
+
+
+// Export for use in other files
+if (typeof module !== "undefined" && module.exports) {
+  module.exports = config;
+}
